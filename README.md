@@ -1,31 +1,4 @@
 # focusme
-Très bien ✅ ! Voici comment ajouter ce `README.md` dans ton dépôt GitHub **manuellement ou depuis ton ordinateur** :
-
----
-
-## 🧠 Option 1 : Modifier en ligne sur GitHub
-
-1. Va dans ton dépôt GitHub (ex. : `https://github.com/ton-utilisateur/focusme`)
-2. Clique sur le fichier `README.md` (ou sur “Add a README” s’il n’existe pas)
-3. Clique sur le bouton ✏️ **“Edit this file”**
-4. Colle tout le contenu ci-dessous 👇 dans la zone d’édition
-5. En bas, écris un message de commit :
-   `Ajout du README initial`
-6. Clique sur **“Commit changes”**
-
----
-
-## 🧠 Option 2 : Depuis ton ordinateur
-
-1. Dans ton dossier `focusme/`, crée le fichier :
-
-```bash
-touch README.md
-```
-
-2. Ouvre-le avec ton éditeur de code (VS Code, par exemple)
-
-3. Colle ceci dans le fichier :
 
 ```markdown
 # 🎯 FocusMe – Application de Suivi d'Objectifs et Apprentissage Personnel
@@ -38,7 +11,7 @@ FocusMe est une application web conçue pour aider chaque utilisateur à :
 - recevoir des rappels
 - progresser de manière autonome et motivée
 
----
+
 
 ## 🧠 Fonctionnalités clés
 
@@ -50,7 +23,7 @@ FocusMe est une application web conçue pour aider chaque utilisateur à :
 - 🔐 Authentification et tableau de bord utilisateur
 - 🧑‍💻 Espace personnel évolutif
 
----
+
 
 ## 🧩 Technologies utilisées
 
@@ -61,9 +34,7 @@ FocusMe est une application web conçue pour aider chaque utilisateur à :
 | Base de données | SQLite (local) ou PostgreSQL (production) |
 | Déploiement   | GitHub, Render, Docker (plus tard) |
 
----
 
-```markdown
 ## 🗂️ Structure du projet
 
 📁 focusme/
@@ -112,12 +83,6 @@ FocusMe est une application web conçue pour aider chaque utilisateur à :
 └── .gitignore                   # Fichiers ignorés par Git
 
 
----
-
-
-````
-
----
 
 ## 🚀 Installation (développement local)
 
