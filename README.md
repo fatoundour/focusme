@@ -92,21 +92,21 @@ FocusMe est une application web conçue pour aider chaque utilisateur à :
 │       ├── main.jsx              # Point d’entrée React  
 │       ├── api.js                # Connexion à l’API backend  
 │       ├── 📁 pages/             # Pages de navigation  
-│       │   ├── Home.jsx
-│       │   ├── Goals.jsx
-│       │   ├── Tasks.jsx
-│       │   ├── Summary.jsx
-│       │   ├── Evaluation.jsx
-│       │   ├── Login.jsx
-│       │   └── Register.jsx
+│       │   ├── Home.jsx  
+│       │   ├── Goals.jsx  
+│       │   ├── Tasks.jsx  
+│       │   ├── Summary.jsx  
+│       │   ├── Evaluation.jsx  
+│       │   ├── Login.jsx  
+│       │   └── Register.jsx  
 │       └── 📁 components/        # Composants réutilisables  
-│           ├── GoalCard.jsx
-│           ├── TaskList.jsx
-│           ├── LoginForm.jsx
-│           ├── RegisterForm.jsx
-│           ├── Navbar.jsx
-│           ├── ProtectedRoute.jsx
-│           └── Loader.jsx
+│           ├── GoalCard.jsx  
+│           ├── TaskList.jsx  
+│           ├── LoginForm.jsx  
+│           ├── RegisterForm.jsx   
+│           ├── Navbar.jsx  
+│           ├── ProtectedRoute.jsx  
+│           └── Loader.jsx  
 
 ├── README.md                    # Description du projet  
 └── .gitignore                   # Fichiers à ignorer dans Git  
