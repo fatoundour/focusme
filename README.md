@@ -68,30 +68,30 @@ FocusMe est une application web conçue pour aider chaque utilisateur à :
 ```
 
 📁 focusme/
-├── 📁 backend/                     # API FastAPI (Python)
-│   ├── requirements.txt           # Dépendances backend
+├── 📁 backend/                     # API FastAPI (Python)  
+│   ├── requirements.txt           # Dépendances backend  
 │   └── 📁 app/
-│       ├── main.py                # Point d'entrée de l'API
-│       ├── auth.py                # Authentification (JWT)
-│       ├── database.py            # Connexion BDD
-│       ├── models.py              # Modèles SQLAlchemy
-│       ├── schemas.py             # Schémas Pydantic (validation)
-│       └── 📁 routers/            # Routes de l'API
-│           ├── users.py           # CRUD utilisateurs
-│           ├── goals.py           # CRUD objectifs
-│           ├── tasks.py           # CRUD tâches (texte/audio/vidéo)
-│           ├── summaries.py       # Résumés d'apprentissage
-│           └── evaluations.py     # Auto-évaluations
+│       ├── main.py                # Point d'entrée de l'API  
+│       ├── auth.py                # Authentification (JWT)  
+│       ├── database.py            # Connexion BDD  
+│       ├── models.py              # Modèles SQLAlchemy  
+│       ├── schemas.py             # Schémas Pydantic (validation)  
+│       └── 📁 routers/            # Routes de l'API  
+│           ├── users.py           # CRUD utilisateurs  
+│           ├── goals.py           # CRUD objectifs  
+│           ├── tasks.py           # CRUD tâches (texte/audio/vidéo)  
+│           ├── summaries.py       # Résumés d'apprentissage  
+│           └── evaluations.py     # Auto-évaluations  
 
-├── 📁 frontend/                   # Interface React
-│   ├── package.json              # Dépendances JS
-│   ├── tailwind.config.js       # Config Tailwind CSS
-│   ├── postcss.config.js        # PostCSS (styling)
+├── 📁 frontend/                   # Interface React  
+│   ├── package.json              # Dépendances JS  
+│   ├── tailwind.config.js       # Config Tailwind CSS  
+│   ├── postcss.config.js        # PostCSS (styling)  
 │   └── 📁 src/
-│       ├── App.jsx               # Composant principal
-│       ├── main.jsx              # Point d’entrée React
-│       ├── api.js                # Connexion à l’API backend
-│       ├── 📁 pages/             # Pages de navigation
+│       ├── App.jsx               # Composant principal  
+│       ├── main.jsx              # Point d’entrée React  
+│       ├── api.js                # Connexion à l’API backend  
+│       ├── 📁 pages/             # Pages de navigation  
 │       │   ├── Home.jsx
 │       │   ├── Goals.jsx
 │       │   ├── Tasks.jsx
@@ -99,7 +99,7 @@ FocusMe est une application web conçue pour aider chaque utilisateur à :
 │       │   ├── Evaluation.jsx
 │       │   ├── Login.jsx
 │       │   └── Register.jsx
-│       └── 📁 components/        # Composants réutilisables
+│       └── 📁 components/        # Composants réutilisables  
 │           ├── GoalCard.jsx
 │           ├── TaskList.jsx
 │           ├── LoginForm.jsx
@@ -108,8 +108,8 @@ FocusMe est une application web conçue pour aider chaque utilisateur à :
 │           ├── ProtectedRoute.jsx
 │           └── Loader.jsx
 
-├── README.md                    # Description du projet
-└── .gitignore                   # Fichiers à ignorer dans Git
+├── README.md                    # Description du projet  
+└── .gitignore                   # Fichiers à ignorer dans Git  
 
 
 ````
