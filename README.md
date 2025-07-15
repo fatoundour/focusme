@@ -63,17 +63,6 @@ FocusMe est une application web conçue pour aider chaque utilisateur à :
 
 ---
 
-## 🗂️ Structure du projet
-
-```
-## 🗂️ Structure du projet
-
-Parfait 👌 ! Voici la **version mise à jour de ton `README.md`** avec le schéma structurel intégré dans la bonne section.
-
----
-
-### 📄 Tu peux remplacer le bloc existant dans ton fichier `README.md` par celui-ci :
-
 ```markdown
 ## 🗂️ Structure du projet
 
@@ -124,10 +113,6 @@ Parfait 👌 ! Voici la **version mise à jour de ton `README.md`** avec le sch�
 
 
 ---
-
-✅ Ce bloc est prêt à être collé **dans ton README.md** à l’endroit souhaité.
-Tu veux que je t’aide à faire un push avec le fichier modifié sur GitHub ?
-
 
 
 ````
