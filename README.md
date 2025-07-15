@@ -66,50 +66,68 @@ FocusMe est une application web conçue pour aider chaque utilisateur à :
 ## 🗂️ Structure du projet
 
 ```
+## 🗂️ Structure du projet
+
+Parfait 👌 ! Voici la **version mise à jour de ton `README.md`** avec le schéma structurel intégré dans la bonne section.
+
+---
+
+### 📄 Tu peux remplacer le bloc existant dans ton fichier `README.md` par celui-ci :
+
+```markdown
+## 🗂️ Structure du projet
 
 📁 focusme/
-├── 📁 backend/                     # API FastAPI (Python)  
-│   ├── requirements.txt           # Dépendances backend  
+├── 📁 backend/                     # API FastAPI (Python)
+│   ├── requirements.txt           # Dépendances backend
 │   └── 📁 app/
-│       ├── main.py                # Point d'entrée de l'API  
-│       ├── auth.py                # Authentification (JWT)  
-│       ├── database.py            # Connexion BDD  
-│       ├── models.py              # Modèles SQLAlchemy  
-│       ├── schemas.py             # Schémas Pydantic (validation)  
-│       └── 📁 routers/            # Routes de l'API  
-│           ├── users.py           # CRUD utilisateurs  
-│           ├── goals.py           # CRUD objectifs  
-│           ├── tasks.py           # CRUD tâches (texte/audio/vidéo)  
-│           ├── summaries.py       # Résumés d'apprentissage  
-│           └── evaluations.py     # Auto-évaluations  
+│       ├── main.py                # Point d'entrée de l'API
+│       ├── auth.py                # Authentification (JWT)
+│       ├── database.py            # Connexion BDD
+│       ├── models.py              # Modèles SQLAlchemy
+│       ├── schemas.py             # Schémas Pydantic (validation)
+│       └── 📁 routers/            # Routes de l'API
+│           ├── users.py           # CRUD utilisateurs
+│           ├── goals.py           # CRUD objectifs
+│           ├── tasks.py           # CRUD tâches (texte/audio/vidéo)
+│           ├── summaries.py       # Résumés d'apprentissage
+│           └── evaluations.py     # Auto-évaluations
 
-├── 📁 frontend/                   # Interface React  
-│   ├── package.json              # Dépendances JS  
-│   ├── tailwind.config.js       # Config Tailwind CSS  
-│   ├── postcss.config.js        # PostCSS (styling)  
+├── 📁 frontend/                   # Interface React
+│   ├── package.json              # Dépendances JS
+│   ├── tailwind.config.js       # Config Tailwind CSS
+│   ├── postcss.config.js        # PostCSS (styling)
+│   ├── index.html               # Page HTML principale
 │   └── 📁 src/
-│       ├── App.jsx               # Composant principal  
-│       ├── main.jsx              # Point d’entrée React  
-│       ├── api.js                # Connexion à l’API backend  
-│       ├── 📁 pages/             # Pages de navigation  
-│       │   ├── Home.jsx  
-│       │   ├── Goals.jsx  
-│       │   ├── Tasks.jsx  
-│       │   ├── Summary.jsx  
-│       │   ├── Evaluation.jsx  
-│       │   ├── Login.jsx  
-│       │   └── Register.jsx  
-│       └── 📁 components/        # Composants réutilisables  
-│           ├── GoalCard.jsx  
-│           ├── TaskList.jsx  
-│           ├── LoginForm.jsx  
-│           ├── RegisterForm.jsx   
-│           ├── Navbar.jsx  
-│           ├── ProtectedRoute.jsx  
-│           └── Loader.jsx  
+│       ├── App.jsx               # Composant principal
+│       ├── main.jsx              # Point d’entrée React
+│       ├── api.js                # Connexion à l’API backend
+│       ├── 📁 pages/             # Pages principales
+│       │   ├── Home.jsx
+│       │   ├── Goals.jsx
+│       │   ├── Tasks.jsx
+│       │   ├── Summary.jsx
+│       │   ├── Evaluation.jsx
+│       │   ├── Login.jsx
+│       │   └── Register.jsx
+│       └── 📁 components/        # Composants réutilisables
+│           ├── GoalCard.jsx
+│           ├── TaskList.jsx
+│           ├── LoginForm.jsx
+│           ├── RegisterForm.jsx
+│           ├── Navbar.jsx
+│           ├── ProtectedRoute.jsx
+│           └── Loader.jsx
 
-├── README.md                    # Description du projet  
-└── .gitignore                   # Fichiers à ignorer dans Git  
+├── README.md                    # Description du projet
+└── .gitignore                   # Fichiers ignorés par Git
+
+
+---
+
+✅ Ce bloc est prêt à être collé **dans ton README.md** à l’endroit souhaité.
+Tu veux que je t’aide à faire un push avec le fichier modifié sur GitHub ?
+
 
 
 ````
